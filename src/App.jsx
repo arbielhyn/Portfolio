@@ -14,24 +14,28 @@ const App = () => {
       title: "Dynamic Blogging Platform",
       text: "Developed a dynamic blogging platform with PHP, granting users CRUD capabilities for seamless post management. Utilized phpMyAdmin for efficient database storage.",
       link: "https://example.com/project1",
+      tech: "Tech List: PHP",
     },
     {
       image: "src/assets/assets/Road Closure.png",
       title: "Road Closure Information",
       text: "Developed an AJAX search form to let users find road closures in Winnipeg, integrating real-time data from the Open Data API for up-to-date information.",
       link: "https://arbielhyn.github.io/Road-Closure/",
+      tech: "Tech List: HTML, CSS and Javascript",
     },
     {
       image: "src/assets/assets/Roastly.png",
       title: "Coffee CMS",
       text: "Developed a dynamic CMS for showcasing coffee and tea drinks with a comprehensive admin dashboard for seamless CRUD operations. Users can create posts and comment, fostering an interactive community. The visually appealing display enhances user experience and encourages exploration.",
       link: "https://example.com/project1",
+      tech: "Tech List: PHP, myPhpAdmin, and CSS",
     },
     {
       image: "src/assets/assets/Weather Forecast.png",
       title: "Weather Forecast",
       text: "Developed a React-based weather site using an API for real-time forecasts, displaying current conditions, interval forecasts, and weekly averages. Implemented dynamic background color changes based on weather.",
       link: "https://xz5n4m.csb.app/",
+      tech: "Tech List: React and CSS",
     },
   ];
 

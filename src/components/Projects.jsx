@@ -2,7 +2,7 @@ import React from "react";
 import { FaCode } from "react-icons/fa";
 import "../index.css";
 
-const ProjectBox = ({ image, title, text, link }) => {
+const ProjectBox = ({ image, title, text, link, tech }) => {
   return (
     <a
       href={link}
@@ -16,6 +16,7 @@ const ProjectBox = ({ image, title, text, link }) => {
         <div className="project-content">
           <div className="project-title">{title}</div>
           <div className="project-text">{text}</div>
+          <div className="project-tech">{tech}</div>
         </div>
       </div>
     </a>
@@ -36,6 +37,7 @@ const Projects = ({ projects }) => {
             image={project.image}
             title={project.title}
             text={project.text}
+            tech={project.tech}
             link={project.link}
           />
         ))}

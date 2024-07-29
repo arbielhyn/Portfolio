@@ -5,6 +5,7 @@ import "../index.css";
 const About = () => {
   // Replace with your resume PDF URL
   const resumeUrl = "src/assets/assets/Arbie Lhyn Lacanlale - Resume.pdf";
+  const logoUrl = "src/assets/assets/red-river-logo.png";
 
   return (
     <div className="about-box">
@@ -32,6 +33,36 @@ const About = () => {
               here
             </a>
             .
+          </p>
+        </div>
+      </div>
+      <h2 className="about-title">Resources</h2>
+      <div className="about-content">
+        <div className="about-paragraph">
+          <h4>
+            <img
+              src={logoUrl}
+              alt="Red River College Logo"
+              className="college-logo"
+            />
+            <a
+              href="https://www.rrc.ca"
+              target="_blank"
+              rel="noopener noreferrer">
+              Red River Polytechnic College - Full Stack Web Development
+            </a>
+          </h4>
+          <p>
+            I am experienced in full-stack web development, skilled in both
+            front-end and back-end technologies. I have experience in
+            JavaScript, Ruby, Python, and frameworks like React, Rails, and
+            Flask, I build dynamic and responsive applications.
+          </p>
+          <p>
+            I've collaborated with teams to deliver high-quality software,
+            continuously enhancing my skills and staying current with industry
+            trends. I'm passionate about creating efficient and user-friendly
+            applications.
           </p>
         </div>
       </div>
